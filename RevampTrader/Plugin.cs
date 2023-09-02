@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.IO;
 using System.Reflection;
 using BepInEx;
@@ -21,8 +20,8 @@ namespace RevampTrader
         private const string modGUID = "blacks7ar.RevampTrader";
         public const string modName = "RevampTrader";
         public const string modAuthor = "blacks7ar";
-        public const string modVersion = "1.0.0";
-        public const string modLink = "";
+        public const string modVersion = "1.0.1";
+        public const string modLink = "https://valheim.thunderstore.io/package/blacks7ar/RevampedTrader/";
         private static string traderYml = modGUID + ".yml";
         private static readonly string configPath = Paths.ConfigPath;
         private static string fullYmlPath = Paths.ConfigPath + Path.DirectorySeparatorChar + traderYml;
