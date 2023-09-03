@@ -72,6 +72,7 @@
     </ItemGroup>
     <ItemGroup>
         <Compile Include="Functions\Logging.cs" />
+        <Compile Include="Functions\SellableItem.cs" />
         <Compile Include="Functions\Toggle.cs" />
         <Compile Include="Functions\TraderYaml.cs" />
         <Compile Include="Functions\VersionCheck.cs" />
