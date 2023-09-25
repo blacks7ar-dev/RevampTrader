@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Reflection;
@@ -22,7 +21,7 @@ namespace RevampTrader
         private const string modGUID = "blacks7ar.RevampTrader";
         public const string modName = "RevampTrader";
         public const string modAuthor = "blacks7ar";
-        public const string modVersion = "1.0.2";
+        public const string modVersion = "1.0.3";
         public const string modLink = "https://valheim.thunderstore.io/package/blacks7ar/RevampedTrader/";
         private static string buyYaml = modGUID + ".Buy.yml";
         private static readonly string configPath = Paths.ConfigPath;
@@ -60,8 +59,7 @@ namespace RevampTrader
                     (synchronizedConfig ? " [Synced with Server]" : " [Not Synced with Server]"),
                     description.AcceptableValues, description.Tags);
             var configEntry = Config.Bind(group, name, value, configDescription);
-            var syncedConfigEntry = _configSync.AddConfigEntry(configEntry);
-            syncedConfigEntry.SynchronizedConfig = synchronizedConfig;
+            _configSync.AddConfigEntry(configEntry).SynchronizedConfig = synchronizedConfig;
             return configEntry;
         }
         
@@ -200,17 +198,6 @@ namespace RevampTrader
                 _SellYaml.ValueChanged += SellYamlOnValueChanged;
                 SellYamlOnValueChanged();
             }
-            //
-            // [HarmonyPostfix]
-            // [HarmonyPatch(typeof(ItemDrop), nameof(ItemDrop.Awake))]
-            // public static void GetValue_Postfix(ItemDrop __instance)
-            // {
-            //     _SellYaml.ValueChanged += SellYamlOnValueChanged;
-            //     foreach (var item in _playerItem.Where(item => __instance.gameObject.name == item.m_prefab))
-            //     {
-            //         __instance.m_itemData.m_shared.m_value = item.m_value;
-            //     }
-            // }
         }
 
         private static List<TraderYaml> ReadSerializedBuyYml(string str)
