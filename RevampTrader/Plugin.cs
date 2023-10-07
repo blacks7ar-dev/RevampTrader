@@ -21,7 +21,7 @@ namespace RevampTrader
         private const string modGUID = "blacks7ar.RevampTrader";
         public const string modName = "RevampTrader";
         public const string modAuthor = "blacks7ar";
-        public const string modVersion = "1.0.3";
+        public const string modVersion = "1.0.5";
         public const string modLink = "https://valheim.thunderstore.io/package/blacks7ar/RevampedTrader/";
         private static string buyYaml = modGUID + ".Buy.yml";
         private static readonly string configPath = Paths.ConfigPath;
@@ -35,7 +35,8 @@ namespace RevampTrader
         {
             DisplayName = modName,
             CurrentVersion = modVersion,
-            MinimumRequiredVersion = modVersion
+            MinimumRequiredVersion = modVersion,
+            ModRequired = true
         };
         
         private static ConfigEntry<Toggle> _serverConfigLocked;
@@ -48,7 +49,6 @@ namespace RevampTrader
 
         private static List<TraderYaml> _traderItem { get; set; }
         private static List<SellableItem> _playerItem { get; set; }
-        public static string connectionError = "";
 
         private ConfigEntry<T> config<T>(string group, string name, T value, ConfigDescription description,
             bool synchronizedConfig = true)

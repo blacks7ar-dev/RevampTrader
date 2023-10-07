@@ -6,14 +6,16 @@ D:\Modding Projects\Github\RevampTrader\RevampTrader\bin\Debug\assembly_guiutils
 D:\Modding Projects\Github\RevampTrader\RevampTrader\bin\Debug\assembly_utils_publicized.dll
 D:\Modding Projects\Github\RevampTrader\RevampTrader\bin\Debug\assembly_valheim_publicized.dll
 D:\Modding Projects\Github\RevampTrader\RevampTrader\bin\Debug\BepInEx.dll
+D:\Modding Projects\Github\RevampTrader\RevampTrader\bin\Debug\Unity.TextMeshPro.dll
 D:\Modding Projects\Github\RevampTrader\RevampTrader\bin\Debug\UnityEngine.CoreModule.dll
 D:\Modding Projects\Github\RevampTrader\RevampTrader\bin\Debug\UnityEngine.dll
-D:\Modding Projects\Github\RevampTrader\RevampTrader\bin\Debug\UnityEngine.UI.dll
 D:\Modding Projects\Github\RevampTrader\RevampTrader\bin\Debug\YamlDotNet.dll
 D:\Modding Projects\Github\RevampTrader\RevampTrader\bin\Debug\Mono.Cecil.dll
 D:\Modding Projects\Github\RevampTrader\RevampTrader\bin\Debug\MonoMod.Utils.dll
 D:\Modding Projects\Github\RevampTrader\RevampTrader\bin\Debug\MonoMod.RuntimeDetour.dll
+D:\Modding Projects\Github\RevampTrader\RevampTrader\bin\Debug\UnityEngine.UI.dll
 D:\Modding Projects\Github\RevampTrader\RevampTrader\bin\Debug\UnityEngine.UIModule.dll
+D:\Modding Projects\Github\RevampTrader\RevampTrader\bin\Debug\UnityEngine.TextCoreModule.dll
 D:\Modding Projects\Github\RevampTrader\RevampTrader\bin\Debug\UnityEngine.PhysicsModule.dll
 D:\Modding Projects\Github\RevampTrader\RevampTrader\bin\Debug\UnityEngine.AnimationModule.dll
 D:\Modding Projects\Github\RevampTrader\RevampTrader\bin\Debug\UnityEngine.InputLegacyModule.dll
@@ -26,6 +28,7 @@ D:\Modding Projects\Github\RevampTrader\RevampTrader\bin\Debug\UnityEngine.Unity
 D:\Modding Projects\Github\RevampTrader\RevampTrader\bin\Debug\UnityEngine.AssetBundleModule.dll
 D:\Modding Projects\Github\RevampTrader\RevampTrader\bin\Debug\UnityEngine.ScreenCaptureModule.dll
 D:\Modding Projects\Github\RevampTrader\RevampTrader\bin\Debug\UnityEngine.UnityWebRequestTextureModule.dll
+D:\Modding Projects\Github\RevampTrader\RevampTrader\bin\Debug\UnityEngine.TextRenderingModule.dll
 D:\Modding Projects\Github\RevampTrader\RevampTrader\bin\Debug\UnityEngine.DSPGraphModule.dll
 D:\Modding Projects\Github\RevampTrader\RevampTrader\bin\Debug\UnityEngine.UnityCurlModule.dll
 D:\Modding Projects\Github\RevampTrader\RevampTrader\bin\Debug\UnityEngine.TLSModule.dll
@@ -38,7 +41,6 @@ D:\Modding Projects\Github\RevampTrader\RevampTrader\bin\Debug\UnityEngine.Unity
 D:\Modding Projects\Github\RevampTrader\RevampTrader\bin\Debug\UnityEngine.PerformanceReportingModule.dll
 D:\Modding Projects\Github\RevampTrader\RevampTrader\bin\Debug\UnityEngine.Physics2DModule.dll
 D:\Modding Projects\Github\RevampTrader\RevampTrader\bin\Debug\UnityEngine.SharedInternalsModule.dll
-D:\Modding Projects\Github\RevampTrader\RevampTrader\bin\Debug\UnityEngine.TextRenderingModule.dll
 D:\Modding Projects\Github\RevampTrader\RevampTrader\bin\Debug\UnityEngine.ClusterInputModule.dll
 D:\Modding Projects\Github\RevampTrader\RevampTrader\bin\Debug\UnityEngine.ClusterRendererModule.dll
 D:\Modding Projects\Github\RevampTrader\RevampTrader\bin\Debug\UnityEngine.CrashReportingModule.dll
@@ -62,7 +64,6 @@ D:\Modding Projects\Github\RevampTrader\RevampTrader\bin\Debug\UnityEngine.GameC
 D:\Modding Projects\Github\RevampTrader\RevampTrader\bin\Debug\UnityEngine.SpriteMaskModule.dll
 D:\Modding Projects\Github\RevampTrader\RevampTrader\bin\Debug\UnityEngine.StreamingModule.dll
 D:\Modding Projects\Github\RevampTrader\RevampTrader\bin\Debug\UnityEngine.TerrainPhysicsModule.dll
-D:\Modding Projects\Github\RevampTrader\RevampTrader\bin\Debug\UnityEngine.TextCoreModule.dll
 D:\Modding Projects\Github\RevampTrader\RevampTrader\bin\Debug\UnityEngine.SpriteShapeModule.dll
 D:\Modding Projects\Github\RevampTrader\RevampTrader\bin\Debug\UnityEngine.UIElementsNativeModule.dll
 D:\Modding Projects\Github\RevampTrader\RevampTrader\bin\Debug\UnityEngine.VehiclesModule.dll

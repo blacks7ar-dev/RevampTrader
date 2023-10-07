@@ -57,14 +57,14 @@
         <Reference Include="System.Core"/>
         <Reference Include="System.Data"/>
         <Reference Include="System.Xml"/>
+        <Reference Include="Unity.TextMeshPro">
+          <HintPath>..\..\..\..\Games\Valheim\unstripped_corlib\Unity.TextMeshPro.dll</HintPath>
+        </Reference>
         <Reference Include="UnityEngine">
           <HintPath>..\..\..\..\Games\Valheim\unstripped_corlib\UnityEngine.dll</HintPath>
         </Reference>
         <Reference Include="UnityEngine.CoreModule">
           <HintPath>..\..\..\..\Games\Valheim\unstripped_corlib\UnityEngine.CoreModule.dll</HintPath>
-        </Reference>
-        <Reference Include="UnityEngine.UI">
-          <HintPath>..\..\..\..\Games\Valheim\unstripped_corlib\UnityEngine.UI.dll</HintPath>
         </Reference>
         <Reference Include="YamlDotNet, Version=13.0.0.0, Culture=neutral, PublicKeyToken=ec19458f3c15af5e, processorArchitecture=MSIL">
           <HintPath>..\packages\YamlDotNet.13.3.1\lib\net45\YamlDotNet.dll</HintPath>
@@ -75,7 +75,6 @@
         <Compile Include="Functions\SellableItem.cs" />
         <Compile Include="Functions\Toggle.cs" />
         <Compile Include="Functions\TraderYaml.cs" />
-        <Compile Include="Functions\VersionCheck.cs" />
         <Compile Include="Plugin.cs" />
         <Compile Include="Properties\AssemblyInfo.cs"/>
     </ItemGroup>
