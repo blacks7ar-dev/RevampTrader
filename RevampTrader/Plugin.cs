@@ -21,7 +21,7 @@ namespace RevampTrader
         private const string modGUID = "blacks7ar.RevampTrader";
         public const string modName = "RevampTrader";
         public const string modAuthor = "blacks7ar";
-        public const string modVersion = "1.0.5";
+        public const string modVersion = "1.0.6";
         public const string modLink = "https://valheim.thunderstore.io/package/blacks7ar/RevampedTrader/";
         private static string buyYaml = modGUID + ".Buy.yml";
         private static readonly string configPath = Paths.ConfigPath;
@@ -173,11 +173,6 @@ namespace RevampTrader
                 }
             }
             Logging.LogDebug($"{buyYaml} changed..");
-        }
-
-        private void OnDestroy()
-        {
-            _harmony.UnpatchSelf();
         }
 
         [HarmonyPatch]
